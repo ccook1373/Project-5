@@ -244,36 +244,55 @@ FEATURES
 
 #features {
     position: relative;
-    max-width: 100vh;
-    margin: 0 auto;
+}
+
+.container {
+    padding: 96px 0;
 }
 
 .row__narrow {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
 .section__tag {
-    color: #6415ff;
-    font-size: 15px;
-    margin-bottom: 25px;
+    font-size: 16px;
+    color: rgb(100, 21, 255);
+    letter-spacing: 1.6px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .section__title {
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 900;
-    letter-spacing: 1px;
-    margin-bottom: 20px;
+    color: rgb(36, 62, 99);
+    line-height: 1.5;
+    letter-spacing: 0.025em;
+    margin: 16px 0px;
+    text-align: center;
 }
 
 .purple {
-    color: #6415ff;
+    color: rgb(100, 21, 255);
 }
 
-.section__para {
+#features .section__para {
     text-align: center;
-    padding: 0 150px;
-    line-height: 1.5;
+    max-width: 576px;
 }
+.section__para {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(124, 139, 161);
+    line-height: 1.625;
+}
+
+
+
+
+
+
+
