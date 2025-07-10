@@ -279,8 +279,6 @@ FEATURES
     color: rgb(100, 21, 255);
 }
 
-#features .section__para {
-}
 .section__para {
     font-size: 18px;
     font-weight: 500;
@@ -290,6 +288,8 @@ FEATURES
     max-width: 576px;
     margin: 0 auto;
 }
+
+
 
 
 
