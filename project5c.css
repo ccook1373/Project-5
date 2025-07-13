@@ -160,6 +160,12 @@ nav {
     background-color: rgba(80, 17, 204);
 }
 
+.nav__link--primary:after {
+    content: "";
+    width: 0;
+    height: 0;
+}
+
 .login {
     margin-left: 48px;
 }
