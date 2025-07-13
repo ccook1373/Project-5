@@ -6,6 +6,7 @@
     text-align: center;
     border: none;
     color: #243e63;
+    display: none;
 }
 
 .menu__backdrop {
@@ -19,6 +20,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 300ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.menu--open .menu__backdrop {
+    visibility: visible;
+    opacity: 1;
+}
+
+.menu--open {
+    max-height: 100vh;
+    overflow-y: hidden;
 }
 
 .btn__menu--close {
